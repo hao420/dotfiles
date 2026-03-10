@@ -120,3 +120,5 @@ fi
 export PATH="$PATH:/home/hao/.local/bin"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# VirtualBox 命令行别名
+alias vbm='/mnt/c/Program\ Files/Oracle/VirtualBox/VBoxManage.exe'
