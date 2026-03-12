@@ -122,3 +122,6 @@ export PATH="$PATH:/home/hao/.local/bin"
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 # VirtualBox 命令行别名
 alias vbm='/mnt/c/Program\ Files/Oracle/VirtualBox/VBoxManage.exe'
+# 启用 Bash 的 vi 模式
+set -o vi
+export EDITOR=vim
