@@ -127,3 +127,8 @@ set -o vi
 export EDITOR=vim
 # 配置zoxide
 eval "$(zoxide init bash)"
+# 自动启动 ssh-agent (dotfiles 专用)
+if [ -z "$SSH_AGENT_PID" ]; then
+    eval "$(ssh-agent -s)" > /dev/null
+    ssh-add ~/.ssh/id_ed25519 > /dev/null 2>&1
+fi
