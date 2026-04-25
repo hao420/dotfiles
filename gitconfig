@@ -1,5 +1,7 @@
 [init]
 	defaultBranch = main
 [user]
-	name = Hao
+	name = hao
 	email = 1347426876@qq.com
+[alias]
+	graph = log --all --graph --decorate --oneline

@@ -125,3 +125,5 @@ alias vbm='/mnt/c/Program\ Files/Oracle/VirtualBox/VBoxManage.exe'
 # 启用 Bash 的 vi 模式
 set -o vi
 export EDITOR=vim
+# 配置zoxide
+eval "$(zoxide init bash)"
